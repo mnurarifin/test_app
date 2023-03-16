@@ -48,7 +48,7 @@
         
 
        <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('admin/auth/logout')?>">
+        <a class="nav-link" href="<?php echo base_url('AuthController/logout')?>">
           <i class="fas fa-sign-out-alt"></i>
           <span>Logout</span></a>
       </li>

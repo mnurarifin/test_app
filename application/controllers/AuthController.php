@@ -53,24 +53,9 @@ class AuthController extends CI_Controller{
 
 	public function logout()
 	{
-    $username = $this->session->userdata('username');
-	$status = $this->session->userdata('role');
-    if($status === '0') {
-
-    	 $data =array(
-
-			'role'   => '2'
-			
-			);
-
-
-		$this->model_auth->update('username', $username, 'pemilih', $data);
-            redirect('auth/terimakasih');
-		}else {
-			echo "Maaf, Vote Anda Gagal diproses";
-		}
-
+   
 		$this->session->sess_destroy();
+		redirect('AuthorController');
 	}
 
 
