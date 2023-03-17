@@ -1,11 +1,11 @@
 <body>
 <div class="container-fluid">
 
-<div class="alert alert-success" role="alert">
+<!-- <div class="alert alert-success" role="alert">
     <h5 class="alert-heading fas fa-poll"> Halaman Author</h5>
     
-  </div>
-
+  </div> -->
+    <br><br>
       <div class="row text-center">
 
       <?php foreach ($post as $knd) : ?>
