@@ -13,7 +13,9 @@
        <div class="card ml-5" style="width: 18rem; ">
           
           <div class="card-body">
-            <h5 class="card-title"><?php echo $knd->title ?></h5>
+            <h2 class="card-title"><?php echo $knd->title ?></h2>
+            <p class="card-title"><?php echo $knd->username ?><?php echo $knd->date ?></p>
+            <p class="card-title"></p>
             <h5 class="card-title"><?php echo $knd->content ?></h5>
 
   
